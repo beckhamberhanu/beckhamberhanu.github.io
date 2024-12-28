@@ -3,39 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Beckham Berhanu</title>
+    <title>Beckham Berhanu</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <div class="container">
         <!-- Left Panel -->
         <aside class="left-panel">
-            <img src="assets/profile.jpg" alt="Profile Picture" class="profile-pic">
+            <img src="assets/profile.JPG" alt="Profile Picture" class="profile-pic">
             <h1>Beckham Berhanu</h1>
-            <p>Addis Ababa, Ethiopia</p>
-            <p>Email: beckham@example.com</p>
-            <p>Phone: +251 123 456 789</p>
+            <p>
+                <i class="icon address-icon"></i> Addis Ababa, Ethiopia
+            </p>
+            <p>
+                <i class="icon email-icon"></i> beckham@example.com
+            </p>
+            <p>
+                <i class="icon phone-icon"></i> +251 123 456 789
+            </p>
             <div class="social-links">
-                <a href="https://github.com/beckhamberhanu" target="_blank">GitHub</a>
-                <a href="https://linkedin.com/in/beckhamberhanu" target="_blank">LinkedIn</a>
+                <a href="https://github.com/beckhamberhanu" target="_blank"><i class="icon github-icon"></i> GitHub</a>
+                <a href="https://linkedin.com/in/beckhamberhanu" target="_blank"><i class="icon linkedin-icon"></i> LinkedIn</a>
             </div>
         </aside>
 
         <!-- Main Content -->
-        <main class="right-panel">
-            <h2>About Me</h2>
-            <p>Hello! I'm Beckham Berhanu, a passionate software developer and project manager from Addis Ababa, Ethiopia. 
-               I specialize in creating impactful solutions and leading teams to deliver exceptional results.</p>
-
+        <header>
             <nav>
                 <ul>
                     <li><a href="projects.html">Projects</a></li>
-                    <li><a href="skills.html">Skill Sets</a></li>
+                    <li><a href="skills.html">Skills</a></li>
                     <li><a href="certifications.html">Certifications</a></li>
                     <li><a href="files/CV of Beckham Berhanu.pdf">CV</a></li>
                 </ul>
             </nav>
+            <h1 class="site-title" onclick="location.href='index.html'">Beckham Berhanu</h1>
+        </header>
+
+        <main class="right-panel">
+            <h2>About Me</h2>
+            <p>Hello! I'm Beckham Berhanu, a passionate software developer and project manager from Addis Ababa, Ethiopia. 
+               I specialize in creating impactful solutions and leading teams to deliver exceptional results.</p>
         </main>
     </div>
+
+    <script src="script/script.js"></script>
 </body>
 </html>
