@@ -1,20 +1,23 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
-    height: 100vh;
+    background-color: #ffffff;
 }
 
+/* Container Layout */
 .container {
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
+/* Left Panel Styles */
 .left-panel {
-    background: #333;
-    color: #fff;
+    background-color: #f4f4f4;
+    color: #333;
     padding: 20px;
     width: 30%;
     text-align: center;
@@ -22,6 +25,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-right: 1px solid #ccc;
 }
 
 .left-panel .profile-pic {
@@ -33,17 +37,22 @@ body {
 }
 
 .left-panel h1 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     margin-bottom: 10px;
 }
 
 .left-panel .social-links a {
-    color: #fff;
+    color: #007bff;
     text-decoration: none;
     margin: 5px;
     display: inline-block;
 }
 
+.left-panel .social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Right Panel Styles */
 .right-panel {
     padding: 20px;
     width: 70%;
@@ -51,25 +60,27 @@ body {
 }
 
 .right-panel h2 {
-    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
 }
 
-nav ul {
+.right-panel nav ul {
     list-style: none;
     padding: 0;
+    margin: 20px 0;
 }
 
-nav ul li {
+.right-panel nav ul li {
     margin: 10px 0;
 }
 
-nav ul li a {
+.right-panel nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #007bff;
     font-weight: bold;
     transition: color 0.3s;
 }
 
-nav ul li a:hover {
-    color: #007bff;
+.right-panel nav ul li a:hover {
+    color: #0056b3;
 }
